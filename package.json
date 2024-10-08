@@ -1,0 +1,19 @@
+{
+  "name": "chess-clone",
+  "version": "1.0.0",
+  "description": "using the Node.js ,Express.js, socket.io, chess engine\r 1> Node.js - Server part\r 2> Express.js - Routing, taking data and connect user\r 3> socket.io - real time data, socket event handling",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chess.js": "^1.0.0-beta.8",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7",
+    "socket.io": "^4.8.0"
+  }
+}
